@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML FIGMA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+       <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top container">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold">
+                <img src="./img/logo.svg.png" width="100" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Listing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Memrase
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="contact-text small px-3 py-2">
+                        <i class="bi bi-telephone mt-2 me-1"></i> +91989899876
+                    </span>
+                    <i class="bi bi-person-circle mt-2"></i>
+                    <a class="btn border btn-pill">Add Property</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- hero -->
+    <header class="hero">
+        <div class="container text-center">
+            <span class="tag">LET US GUIDE YOUR HOME</span>
+            <h1>Believe in finding it</h1>
+            <p class="lead">Search properties for sale and to rent in the UK</p>
+
+            <!-- searchbar -->
+            <form class="search-wrap">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter Name" aria-label="sarch">
+                    <button class="btn-search" type="submit"><i class="bi bi-search"></i></button>
+                </div>
+            </form>
+
+            <!-- chips -->
+            <div class="d-flex justify-content-center flex-wrap mt-3 chips-wrapper">
+                <span class="chips"><i class="bi bi-house-door"></i> Modern Villa</span>
+                <span class="chips"><i class="bi bi-building"></i> Aparment</span>
+                <span class="chips"><i class="bi bi-houses-fill"></i> Town House</span>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- <secont part  -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h3 class="fw-bold">Why You Should Work With Us</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="featyre-box">
+                    <img src="./img/Vector.png" />
+                    <h5>Wide Range of Properties</h5>
+                    <p>We offer expert legal help for all related property
+                        items in Dubai.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="featyre-box">
+                    <img src="./img/Vector (1).png" />
+                    <h5>Buy or Rent Homes</h5>
+                    <p>We sell your home at the best market price and very
+                        quickly as well.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="featyre-box">
+                    <img src="./img/Icon.png" />
+                    <h5>Trusted by Thousands</h5>
+                    <p>We offer you free consultancy to get a loan for your
+                        new home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- feture -->
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h3>Featured Properties</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="btm-group ">
+                <button class="btn btn-outline-dark active rounded-pill">All Properties</button>
+                <button class="btn btn-outline-dark  rounded-pill">For Sale</button>
+                <button class="btn btn-outline-dark  rounded-pill">For Rent</button>
+            </div>
+        </div>
+        <!-- grid -->
+        <div class="row g-4">
+            <!-- card 1 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/div.property-thumbnail-wrapper.png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/div.property-thumbnail-wrapper (1).png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card3 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/div.property-thumbnail-wrapper (2).png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/130.png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/134.png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="col-md-4">
+                <div class="card proparty-card">
+                    <div class="proparty-badge">
+                        <span class="badge bg-success">FOR SALE</span>
+                        <span class="badge bg-warning text-dark">Featured</span>
+                    </div>
+                    <img src="./img/features img/138.png" class="card-img-top"
+                        style="height:350px; object-fit:cover;" />
+                    <div class="property-info">
+                        <h6 class="fw-bold">Luxury Family Home</h6>
+                        <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i>1800-1818 79th St</p>
+
+                        <div class="d-flex justify-content-between text-muted">
+                            <h6 class="text-danger">$395,000</h6>
+                            <span><i class="bi bi-house-door"></i>4</span>
+                            <span><i class="bi bi-badge-wc"></i>1</span>
+                            <span><i class="bi bi-file-earmark"></i>400</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- see all button -->
+        <div class="text-center mt-4">
+            <button class="btn" style="background: #E7C873; border: 1px solid #fff; border-radius: 999px;">see All
+                Listing <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- cities part -->
+    <div class="container-fluid py-5 text-center" style="background-color: #F7F7F7;">
+        <h3 class="fw-bold">Find Properties in These Cities</h3>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row g-3 justify-content-center">
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="./img/features img/h22.jpg.png" alt="">
+                    <div class="city-overlay">
+                        <h5>Chicago</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="./img/features img/h23.jpg.png" alt="">
+                    <div class="city-overlay">
+                        <h5>Los Angeles</h5>
+                        <p>1 Property</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="./img/features img/h24.jpg.png" alt="">
+                    <div class="city-overlay">
+                        <h5>Miami</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="./img/features img/h25.jpg.png" alt="">
+                    <div class="city-overlay">
+                        <h5>Florida</h5>
+                        <p>3 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-10">
+                <div class="city-card">
+                    <img src="./img/features img/h21.jpg.png" alt="">
+                    <div class="city-overlay">
+                        <h5>New York</h5>
+                        <p>2 Properties</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <a href="#" style="cursor: pointer;"><i class="bi bi-record-circle"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+            <a href="#" style="cursor: pointer;"><i class="bi bi-dot"></i></a>
+
+
+        </div>
+    </div>
+
+    <!-- home part -->
+    <div class="container py-5">
+
+        <div class="row align-items-center">
+            <!-- left  -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="./img/features img/h21.jpg (1).png">
+            </div>
+            <!-- right -->
+            <div class="col-lg-6">
+                <h3 class="fw-bold">How It works?<br>
+                    Find a perfect home</h3>
+                <p class="text-muted">Pellentesque egestas elementum egestas faucibus sem. Velit
+                    nunc egestas ut morbi. Leo diam diam.</p>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-house-door"></i>Find Real Estate</h6>
+                        <p class="text-muted smalll mb-0">Sumo petentium ut per, at his wisim utinam
+                            adipiscing. Est ei graeco</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-people"></i> Meet Realtor</h6>
+                        <p class="text-muted smalll mb-0">Sumo petentium ut per, at his wisim utinam
+                            adipiscing. Est ei graeco</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div>
+                        <h6 class="fw-semibold mb-1"><i class="bi bi-key-fill"></i>
+                            Take The Keys</h6>
+                        <p class="text-muted smalll mb-0">Sumo petentium ut per, at his wisim utinam
+                            adipiscing. Est ei graeco</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- customer part -->
+    <div class="container-fluid testimonial" style="background: #FFF8F6;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- left -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3">What our customers are
+                        saying us?</h2>
+                    <p class="text-muted mb-4">Various versions have evolved over the years, sometimes by
+                        accident, sometimes on purpose injected humour and the like.</p>
+
+                    <div class="d-flex mb-3">
+                        <div class="me-5">
+                            <h4 class="fw-bold">10m+</h4>
+                            <small class="text-muted">Happy People</small>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold">4.88</h4>
+                            <small class="text-muted">Overall rating</small>
+                            <div class="rating mb-1">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 testimonial-card">
+                    <!-- icon -->
+                    <span class="quote-icon"><img src="./img/features img/SVG.png" alt="Quote icon"></span>
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./img/features img/test1.png.png" width="60" height="60" />
+                        <div>
+                            <h6>Cameron Williamson</h6>
+                            <small>Designer</small>
+                        </div>
+                    </div>
+                    <p>Searches for multiplexes, property comparisons, and the loan
+                        estimator. Works great. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dores. </p>
+                    <div class="d-flex mt-4">
+                        <button class="nav-btn"><i class="bi bi-chevron-left"></i></button>
+                        <button class="nav-btn"><i class="bi bi-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo -->
+    <section class="company-section" style="background: #FFF8F6;">
+        <div class="container">
+            <p class="mb-0 fs-5">Thousands of world’s leading companies trust Space</p>
+            <div class="company-logos mt-3">
+                <div class="company-logo">
+                    <img src="./img/logo/148.png" />
+                </div>
+                <div class="company-logo">
+                    <img src="./img/logo/149.png" />
+                </div>
+                <div class="company-logo">
+                    <img src="./img/logo/150.png" />
+                </div>
+                <div class="company-logo">
+                    <img src="./img/logo/151.png" />
+                </div>
+                <div class="company-logo">
+                    <img src="./img/logo/152.png" />
+                </div>
+                <div class="company-logo">
+                    <img src="./img/logo/153.png" />
+                </div>
+            </div>
+        </Div>
+    </section>
+
+
+    <!-- balck section  -->
+    <div class="properties-section mt-5">
+        <div class="section-title">
+            <h2>Best Properties</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="container mb-5">
+            <div class="row g-4">
+                <!-- left side -->
+                <div class="col-lg-6">
+                    <div class="property-card " style="height: 100%; max-width: 700px; ">
+                        <img
+                            src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8fDB8fHww">
+                        <div class="badges">
+                            <span class="badge-custom">For Sale </span>
+                            <span class="badge-custom badhe-fetured">FETURED</span>
+                        </div>
+                        <div class="info-box">
+                            <h5>Villa one Park</h5>
+                            <div class="location">2050 Bloomingdale Ave</div>
+                            <div class="details">
+                                <div class="price">$120,000</div>
+                                <span>4<i class="bi bi-segmented-nav"></i></span>
+                                <span>2<i class="bi bi-cup-fill"></i></span>
+                                <span>350<i class="bi bi-copy"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-flex flex-column gap-4">
+                    <!-- top img -->
+                    <div class="property-img-card">
+                        <img src="./img/logo/Carousel _ Horizontal scrolling_ Arrow Left & Right.png">
+                    </div>
+                    <div class="row g-4">
+                        <!-- video  -->
+                        <div class="col-md-6">
+                            <div class="property-img-card " style="height: 300px;">
+                                <img src="./img/logo/bg-video.jpg (1).png"><i class="bi bi-play-circle play-btn"></i>
+                            </div>
+                        </div>
+                        <!-- info -->
+                        <div class="col-md-6">
+                            <div class="property-info-card">
+                                <h4>280+<br>Properties</h4>
+                                <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet.</p>
+                                <div class="d-flex justify-content-end"><i class="bi bi-arrow-right-circle arrow"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- member section  -->
+    <div class="cotainer py-5">
+        <div class="text-center mb-4">
+            <h2>Meet Our Team Of Experts</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="row justify-cotent-center">
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/features img/div.member-thumbnail-wrapper.png" />
+                    <div class="team-name">John Powell</div>
+                    <div class="team-name">Service Support</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/features img/div.member-thumbnail-wrapper (1).png" />
+                    <div class="team-name">John Powell</div>
+                    <div class="team-name">Service Support</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/features img/div.member-thumbnail-wrapper (2).png" />
+                    <div class="team-name">John Powell</div>
+                    <div class="team-name">Service Support</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="team-card">
+                    <img src="./img/features img/div.member-thumbnail-wrapper (3).png" />
+                    <div class="team-name">John Powell</div>
+                    <div class="team-name">Service Support</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- market -->
+
+    <div class="cotainer py-5">
+        <div class="text-center mb-4">
+            <h2>Popular Real Estate Markets</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="market-wrap">
+            <span class="market-pill">The Villages, FL real estate</span>
+            <span class="market-pill">New York, Real estate</span>
+            <span class="market-pill">Madera, CA real estate</span>
+            <span class="market-pill">Fontana, CA real estate</span>
+            <span class="market-pill">Moreno Valley, CA real estate</span>
+            <span class="market-pill">Aurora, IL real estate</span>
+            <span class="market-pill">Perris, CA real estate</span>
+            <span class="market-pill">Minnesota Lake, MN real estate</span>
+            <span class="market-pill">Woodbridge, VA real estate</span>
+
+          
+
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+
+
+    <!-- Font Awesome -->
+ 
+
+<body>
+
+    <footer class="footer">
+
+        <!-- Top -->
+        <div class="footer-top">
+
+            <a href="#" class="navbar-logo fw-bold">
+                <img src="./img/logo.svg.png" width="100" style="color: #fff;" />
+            </a>
+
+            <div class="social">
+                <span>Follow Us</span>
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Middle -->
+        <div class="footer-content">
+
+            <!-- Subscribe -->
+            <div class="footer-box">
+
+                <h3>Subscribe</h3>
+
+                <div class="subscribe-box">
+
+                    <input type="email" placeholder="Your e-mail">
+
+                    <button>Send <i class="fa-solid fa-arrow-right"></i></button>
+
+                </div>
+
+                <p>
+                    Subscribe to our newsletter to receive our weekly feed.
+                </p>
+
+            </div>
+
+            <!-- Discover -->
+            <div class="footer-box">
+
+                <h3>Discover</h3>
+
+                <a href="#">Miami</a>
+
+                <a href="#">New York</a>
+
+                <a href="#">Chicago</a>
+
+                <a href="#">Florida</a>
+
+                <a href="#">Los Angeles</a>
+
+                <a href="#">San Diego</a>
+
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <a href="#">About</a>
+
+                <a href="#">Contact</a>
+
+                <a href="#">FAQ's</a>
+
+                <a href="#">Blog</a>
+
+                <a href="#">Pricing Plans</a>
+
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms & Conditions</a>
+
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-box">
+
+                <h3>Contact Us</h3>
+
+                <p>hi@justhome.com</p>
+
+                <p>(123) 456-7890</p>
+
+            </div>
+
+            <!-- Address -->
+            <div class="footer-box">
+
+                <h3>Our Address</h3>
+
+                <p>99 Fifth Avenue, 3rd Floor</p>
+
+                <p>San Francisco, CA 1980</p>
+
+            </div>
+
+            <!-- App -->
+            <div class="footer-box">
+
+                <h3>Get the app</h3>
+
+                <button class="store-btn">
+
+                    <i class="fab fa-apple"></i>
+
+                    <div>
+                        <small>Download on the</small>
+                        <h4>Apple Store</h4>
+                    </div>
+
+                </button>
+
+                <button class="store-btn">
+
+                    <i class="fab fa-google-play"></i>
+
+                    <div>
+                        <small>Get it on</small>
+                        <h4>Google Play</h4>
+                    </div>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+
+        <div class="footer-bottom">
+
+            Copyright © 2025. JustHome
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
